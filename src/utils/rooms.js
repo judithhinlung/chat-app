@@ -21,10 +21,10 @@ const removeRoom = (roomName) => {
     }
 }
 
-const getAvailableRooms = () => rooms
+const getActiveRooms = () => rooms
 
 module.exports = {
     addRoom,
     removeRoom,
-    getAvailableRooms
+    getActiveRooms
 }
